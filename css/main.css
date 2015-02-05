@@ -1,0 +1,126 @@
+html {
+
+  background-color:#bd9dda;
+  font-family: 'Arial',  sans-serif;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color:#4f3b2b;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-shadow: 2px 0px;
+  font-family: 'Bevan',  cursive;
+  background-color: grey;
+  padding: 1em 2em 1em 0.5em;
+  margin: 0;
+}
+
+header {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+
+}
+h2{
+  color:#4f3b2b;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-shadow: 2px 0px;
+  font-family: 'Bevan',  cursive;
+}
+
+h3 {
+  color:#4f3b2b;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-shadow: 2px 0px;
+  font-family: 'Bevan',  cursive;
+  background-color: grey;
+  margin: 0;
+}
+
+h4{
+  color:#4f3b2b;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-shadow: 2px 0px;
+  font-family: 'Bevan',  cursive;
+}
+
+a:hover {
+  color:white;
+}
+
+ol {
+  list-style-type: none;
+  background-color: grey;
+  padding: 0em 0em 1em 1.5em;
+  margin: 0;
+}
+
+.celestial {
+  color:#4f3b2b;
+}
+
+.rounded {
+  color:#4f3b2b;
+}
+
+blockquote {
+  font-style: italic;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center; /* left, center, right, justify */
+  font-family: 'Libre Baskerville', serif;
+}
+
+cite {
+  font-style: italic;
+  text-decoration: none;
+  color:#4f3b2b;
+  font-size: .75rem;
+  text-align: center; /* left, center, right, justify */
+  float: right;
+  font-family: 'Libre Baskerville', serif;
+}
+
+ul {
+  list-style-type: lower-roman;
+}
+.unfort {
+  color:black;
+}
+b {
+  font-weight: normal;
+}
+.pluto {
+  color:black;
+}
+figcaption {
+  font-size: .75rem
+}
+.Mars {
+  list-style-type: circle;
+}
+.Venus {
+  list-style-type: circle;
+}
+dt {
+  font-weight: bold;
+}
+
+figure {
+  border: 1px solid #000;
+  padding: 1em 2em 1em 0.5em;
+  margin: 0;
+  border-radius: 10px;
+}
