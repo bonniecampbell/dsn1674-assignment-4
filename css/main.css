@@ -17,7 +17,7 @@ h1 {
   text-shadow: 2px 0px;
   font-family: 'Bevan',  cursive;
   background-color: grey;
-  padding: 1em 2em 1em 0.5em;
+  padding: 1em 2em 0.5em 0.5em;
   margin: 0;
   text-align: center;
 }
@@ -25,6 +25,8 @@ h1 {
 nav {
   background-color: grey;
   text-align: center;
+  margin: 0;
+  padding: 0em 0em 1em 1.5em;
 }
 
 nav ol {
@@ -34,7 +36,17 @@ nav ol {
 }
 
 nav li {
-  display: inline
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 0.75em;
+  background-color: white;
+  color: blue;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav a {
+  display: inline-block;
 }
 
 h2{
@@ -127,6 +139,10 @@ figcaption {
 }
 dt {
   font-weight: bold;
+}
+
+dd {
+  margin: 0.5em 0em 1em 0em;
 }
 
 figure {
